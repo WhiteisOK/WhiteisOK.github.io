@@ -1,0 +1,92 @@
+/* =========================================
+   1. Code New Roman Nerd Font (英文/代码/图标)
+   家族名称: 'CodeNewRoman'
+   ========================================= */
+
+/* Regular (常规) */
+@font-face {
+  font-family: 'CodeNewRoman';
+  src: url('./CodeNewRomanNerdFontMono-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold (粗体) */
+@font-face {
+  font-family: 'CodeNewRoman';
+  src: url('./CodeNewRomanNerdFontMono-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Italic (斜体) */
+@font-face {
+  font-family: 'CodeNewRoman';
+  src: url('./CodeNewRomanNerdFontMono-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* =========================================
+   2. Source Han Sans SC (思源黑体 - 中文回退)
+   家族名称: 'SourceHanSansSC'
+   用于当代码中出现中文字符时自动切换
+   ========================================= */
+
+/* ExtraLight (极细) */
+@font-face {
+  font-family: 'SourceHanSansSC';
+  src: url('./SourceHanSansSC-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light (细) */
+@font-face {
+  font-family: 'SourceHanSansSC';
+  src: url('./SourceHanSansSC-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Normal / Regular (常规) */
+@font-face {
+  font-family: 'SourceHanSansSC';
+  src: url('./SourceHanSansSC-Normal.otf') format('opentype');
+  /* 注意：有些版本文件名是 Regular.otf，如果是请修改上面文件名，这里保持和你提供的文件名一致 */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium (中等) */
+@font-face {
+  font-family: 'SourceHanSansSC';
+  src: url('./SourceHanSansSC-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold (粗体) */
+@font-face {
+  font-family: 'SourceHanSansSC';
+  src: url('./SourceHanSansSC-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Heavy (特粗) - 映射为 900 */
+@font-face {
+  font-family: 'SourceHanSansSC';
+  src: url('./SourceHanSansSC-Heavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
