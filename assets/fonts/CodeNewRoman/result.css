@@ -6,7 +6,7 @@
 /* Regular (常规) */
 @font-face {
   font-family: 'CodeNewRoman';
-  src: url('./CodeNewRomanNerdFontMono-Regular.otf') format('opentype');
+  src: url('./CodeNewRomanNerdFontMono-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -15,7 +15,7 @@
 /* Bold (粗体) */
 @font-face {
   font-family: 'CodeNewRoman';
-  src: url('./CodeNewRomanNerdFontMono-Bold.otf') format('opentype');
+  src: url('./CodeNewRomanNerdFontMono-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 /* Italic (斜体) */
 @font-face {
   font-family: 'CodeNewRoman';
-  src: url('./CodeNewRomanNerdFontMono-Italic.otf') format('opentype');
+  src: url('./CodeNewRomanNerdFontMono-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -36,57 +36,30 @@
    用于当代码中出现中文字符时自动切换
    ========================================= */
 
-/* ExtraLight (极细) */
-@font-face {
-  font-family: 'SourceHanSansSC';
-  src: url('./SourceHanSansSC-ExtraLight.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
+/* --- 只保留这两个，体积减少 70% --- */
 
-/* Light (细) */
+/* Regular (常规) - 必须 */
 @font-face {
   font-family: 'SourceHanSansSC';
-  src: url('./SourceHanSansSC-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Normal / Regular (常规) */
-@font-face {
-  font-family: 'SourceHanSansSC';
-  src: url('./SourceHanSansSC-Normal.otf') format('opentype');
-  /* 注意：有些版本文件名是 Regular.otf，如果是请修改上面文件名，这里保持和你提供的文件名一致 */
+  src: url('./SourceHanSansSC-Normal.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-/* Medium (中等) */
+/* Bold (粗体) - 必须 */
 @font-face {
   font-family: 'SourceHanSansSC';
-  src: url('./SourceHanSansSC-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Bold (粗体) */
-@font-face {
-  font-family: 'SourceHanSansSC';
-  src: url('./SourceHanSansSC-Bold.otf') format('opentype');
+  src: url('./SourceHanSansSC-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-/* Heavy (特粗) - 映射为 900 */
-@font-face {
-  font-family: 'SourceHanSansSC';
-  src: url('./SourceHanSansSC-Heavy.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
+/* 其他字重全部注释掉，浏览器会自动用 400 或 700 模拟 */
+/* 
+@font-face { ... font-weight: 200; ... } 
+@font-face { ... font-weight: 300; ... }
+@font-face { ... font-weight: 500; ... }
+@font-face { ... font-weight: 900; ... }
+*/
