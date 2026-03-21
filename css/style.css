@@ -2168,7 +2168,7 @@ code {
 }
 figure.highlight {
   overflow: auto;
-  max-height: 22em;
+  max-height: 100em;
   padding: 1rem 0.4rem;
   color: var(--highlight-foreground);
   background: var(--highlight-background);
