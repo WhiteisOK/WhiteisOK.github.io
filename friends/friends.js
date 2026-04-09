@@ -11,7 +11,7 @@ const friendsData = {
           name: 'thr2on1',
           url: 'https://thr2on1.github.io',
           avatar: 'assets/images/Hexo-Theme-MEOW.png',
-          desc: '0000000000000000000'
+          desc: '他是Thr2on1,一位热爱网络安全的大佬,欢迎前往他的博客!'
         },
       ]
     },
