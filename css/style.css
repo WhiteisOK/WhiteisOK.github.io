@@ -41,29 +41,29 @@ body[data-mode='dark'] {
   --theme-color-light-3: #acd3f2;
   --theme-color-transparent-1: rgba(136,192,237,0.6);
   --theme-color-dark-1: #68afe8;
-  --background-color: #353941;
-  --background-color-transparent-1: rgba(53,57,65,0.88);
-  --background-color-transparent-2: rgba(53,57,65,0.7);
-  --background-color-transparent-3: rgba(53,57,65,0.4);
-  --background-color-grey: #26282b;
-  --background-color-grey-light-1: #222427;
-  --background-color-grey-light-2: #1e2022;
-  --background-color-grey-transparent: rgba(38,40,43,0.25);
-  --background-color-grey-transparent-2: rgba(38,40,43,0.35);
-  --background-color-body: #5f85db;
-  --background-color-page: rgba(53,57,65,0.7);
-  --font-color: #90b8f8;
+  --background-color: #2d2d2d;
+  --background-color-transparent-1: rgba(45,45,45,0.88);
+  --background-color-transparent-2: rgba(45,45,45,0.7);
+  --background-color-transparent-3: rgba(45,45,45,0.4);
+  --background-color-grey: #454545;
+  --background-color-grey-light-1: #3e3e3e;
+  --background-color-grey-light-2: #373737;
+  --background-color-grey-transparent: rgba(69,69,69,0.25);
+  --background-color-grey-transparent-2: rgba(69,69,69,0.35);
+  --background-color-body: #202124;
+  --background-color-page: rgba(45,45,45,0.7);
+  --font-color: #bebec6;
   --font-color-invert: #fcfcfc;
-  --font-color-navbar: #90b8f8;
+  --font-color-navbar: #bebec6;
   --font-color-navbar-custom: #bebec6;
-  --font-color-light-1: #4689f3;
-  --font-color-light-2: #2171f1;
-  --font-color-light-3: #0c4eb8;
-  --link-hover-font-color: #353941;
+  --font-color-light-1: #9595a2;
+  --font-color-light-2: #808090;
+  --font-color-light-3: #5b5b67;
+  --link-hover-font-color: #2d2d2d;
   --banner-background: url("/assets/images/cat_fishing.webp");
   --banner-font-color: #e0e0e0;
   --nav-background-color: transparent;
-  --card-border-color: #26282b;
+  --card-border-color: #3b3b3b;
   --meow-box-shadow: 1px 1px 1px 1px rgba(187,187,187,0.012);
   --meow-card-shadow: none;
 }
@@ -4303,7 +4303,7 @@ body[data-mode="dark"] details {
   filter: brightness(90%);
 }
 body[data-mode="dark"] details summary {
-  color: #26282b;
+  color: #454545;
 }
 span.mask {
   position: relative;
@@ -4410,7 +4410,7 @@ body[data-mode="dark"] span.mask {
   background: #e5f7e2;
 }
 body[data-mode="dark"] .note {
-  color: #26282b;
+  color: #454545;
   filter: brightness(90%);
 }
 .tabs {
