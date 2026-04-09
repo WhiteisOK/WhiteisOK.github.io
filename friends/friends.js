@@ -8,22 +8,10 @@ const friendsData = {
       },
       list: [
         {
-          name: '000',
-          url: 'https://chanwj.github.io',
+          name: 'thr2on1',
+          url: 'https://thr2on1.github.io',
           avatar: 'assets/images/Hexo-Theme-MEOW.png',
           desc: '0000000000000000000'
-        },
-        {
-          name: '1111',
-          url: 'https://chanwj.github.io',
-          avatar: 'assets/images/Hexo-Theme-MEOW.png',
-          desc: '1111111111111111'
-        },
-        {
-          name: '222',
-          url: 'https://chanwj.github.io',
-          avatar: 'assets/images/Hexo-Theme-MEOW.png',
-          desc: '222222222222222222'
         },
       ]
     },
