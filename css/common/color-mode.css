@@ -49,13 +49,13 @@ body[data-mode='dark'] {
   --background-color-grey-transparent-2: rgba(69,69,69,0.35);
   --background-color-body: #202124;
   --background-color-page: rgba(45,45,45,0.7);
-  --font-color: #bebec6;
+  --font-color: #d4d4d4;
   --font-color-invert: #fcfcfc;
-  --font-color-navbar: #bebec6;
+  --font-color-navbar: #d4d4d4;
   --font-color-navbar-custom: #bebec6;
-  --font-color-light-1: #9595a2;
-  --font-color-light-2: #808090;
-  --font-color-light-3: #5b5b67;
+  --font-color-light-1: #aaa;
+  --font-color-light-2: #949494;
+  --font-color-light-3: #6a6a6a;
   --link-hover-font-color: #2d2d2d;
   --banner-background: url("/assets/images/cat_fishing.webp");
   --banner-font-color: #e0e0e0;
