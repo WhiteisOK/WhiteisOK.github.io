@@ -13,6 +13,12 @@ const friendsData = {
           avatar: 'assets/images/Hexo-Theme-MEOW.png',
           desc: '他是Thr2on1,一位热爱网络安全的大佬,欢迎前往他的博客!'
         },
+        {
+          name: 'Sy-Blog',
+          url: 'https://0x0off.top',
+          avatar: 'https://0x0off.top/111.jpg',
+          desc: '励志成为安全菜喵'
+        },
       ]
     },
     {
